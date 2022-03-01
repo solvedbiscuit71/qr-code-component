@@ -1,0 +1,13 @@
+{
+  "name": "qr-code-component",
+  "description": "This is a chanllenge from frontendmentor.io",
+  "main": "index.html",
+  "scripts": {
+    "dev": "lite-server"
+  },
+  "author": "solvedbiscuit71",
+  "license": "ISC",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
+}
