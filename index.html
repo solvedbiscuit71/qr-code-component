@@ -6,9 +6,65 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <title>QR code component</title>
+
+  <style>
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+*,*::before,*::after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-family: "Outfit";
+}
+
+body {
+  margin: 0;
+  height: 100vh;
+  background-color: hsl(212, 45%, 89%);
+
+  display: grid;
+  place-content: center;
+}
+
+main {
+  width: 340px;
+  padding: 1em;
+
+  background-color: white;
+  border-radius: 10px;
+}
+
+main img {
+  width: 100%;
+
+  border-radius: 10px;
+}
+
+main h1 {
+  font-size: 1.5rem;
+  font-weight: 700;
+
+  text-align: center;
+}
+
+main p {
+  font-size: 1rem;
+  font-weight: 400;
+
+  color: hsl(220, 15%, 55%);
+  text-align: center;
+
+  padding-inline: 1.5em;
+}
+  </style>
 </head>
 <body>
-  Improve your front-end skills by building projects
-  Scan the QR code to visit Frontend Mentor and take your coding skills to the next level
+  <main>
+    <img src="images/image-qr-code.png" alt="QR Code">
+    <h1>Improve your front-end skills by building projects</h1>
+    <p>Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
+  </main>
 </body>
 </html>
