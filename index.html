@@ -29,21 +29,25 @@ body {
 }
 
 main {
-  width: 340px;
+  width: 308px;
   padding: 1em;
 
   background-color: white;
-  border-radius: 10px;
+  border-radius: 20px;
 }
 
 main img {
   width: 100%;
 
-  border-radius: 10px;
+  border-radius: 20px;
+}
+
+.info {
+  padding: 0 1.5em;
 }
 
 main h1 {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   font-weight: 700;
 
   text-align: center;
@@ -55,16 +59,16 @@ main p {
 
   color: hsl(220, 15%, 55%);
   text-align: center;
-
-  padding: 0 1.5em;
 }
   </style>
 </head>
 <body>
   <main>
     <img src="images/image-qr-code.png" alt="QR Code">
-    <h1>Improve your front-end skills by building projects</h1>
-    <p>Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
+    <div class="info">
+      <h1>Improve your front-end skills by building projects</h1>
+      <p>Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
+    </div>
   </main>
 </body>
 </html>
